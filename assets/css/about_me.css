@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Redressed&family=Varela+Round&display=swap');
+.text_about_me {
+  font-size: 34px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  padding: 80px;
+  position: absolute;
+  font-family: 'Varela Round', sans-serif;
+  top: 35%;
+}
+.more_about_me_button{
+  position: absolute;
+  top: 87%;
+  left: 36%;
+  border-radius: 80px;
+  background-color: #f39c12;
+  padding: 8px 28px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Varela Round', sans-serif;
+}
+.more_about_me_button:hover{
+  background: linear-gradient(to right, #f39c12, white);
+  color: black;
+}
+.more_about_me_div{
+    /* background-color: rgb(233, 233, 222); */
+    width: 90%;
+    position: absolute;
+    top: 100%;
+
+    
+}
+.sadhana_school_image{
+    height: 300px;
+    width: 300px;
+    padding-top: 60px;
+    position: relative;
+    left: 20%;
+}
+.about_school_text{
+    height: 300px;
+    width: 600px;
+    font-size: 30px;
+    padding: 80px;
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    font-family: 'Varela Round', sans-serif;
+}
+.narayana_college_image{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 20%;
+    top: 120%;
+}
+.about_college_text{
+    height: 300px;
+    width: 650px;
+    font-size: 30px;
+    padding: 80px;
+    position: absolute;
+    bottom: -145%;
+    left: 50%;
+    font-family: 'Varela Round', sans-serif;
+}
+.FWSA_image{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    right: 58%;
+    top: 220%;
+}
+.about_FWSA_text{
+    height: 300px;
+    width: 700px;
+    font-size: 30px;
+    padding: 80px;
+    position: absolute;
+    left: 50%;
+    top: 230%;
+    font-family: 'Varela Round', sans-serif;
+}

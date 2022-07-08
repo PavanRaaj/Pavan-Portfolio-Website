@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Redressed&family=Varela+Round&display=swap");
+
+.main_div_of_skills {
+  /* position: relative; */
+  /* margin-top: 13%;
+  left: 5%;
+  height: 500px; */
+}
+.main_div {
+    display: flex;
+    margin-top: 4%;
+}
+/* .languages_image {
+  width: 800px;
+  height: 400px;
+  border-radius: 3%;
+  cursor: pointer;
+  margin-left: 10%;
+}
+.languages_text {
+  font-size: 30px;
+  font-family: "Varela Round", sans-serif;
+  width: 900px;
+  margin-left: 5%;
+  margin-top: 6%;
+} */
+.row_2 {
+    position: relative;
+    width: 200px;
+    margin-top: 10%;
+    margin-left: 5%;
+    height: 200px;
+    display: flex;
+    border-bottom: 2px solid #111;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0);
+}
+.percent {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.row_2:hover {
+    background-color: #1E2123;
+}
+.percent svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.percent svg circle {
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: black;
+    transform: translate(5px,5px);
+}
+.number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.number h2 {
+    font-size: 48px;
+}
+.number h2 span {
+    font-size: 25px;
+}
+.container2 {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20%;
+    margin-top: 4%;
+}
+.percent svg circle {
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #000;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke-linecap: round;
+}
+.percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #F3F3F3;
+}
+.percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 97) / 100);
+    stroke: #f39c12;
+}
+#percentage1 svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #F3F3F3;
+}
+#percentage1 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #f39c12;
+}
+#percentage2 svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #F3F3F3;
+}
+#percentage2 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 95) / 100);
+    stroke: #f39c12;
+}
+#percentage3 svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #F3F3F3;
+}
+#percentage3 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #f39c12;
+}
+#percentage4 svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #F3F3F3;
+}
+#percentage4 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #f39c12;
+}
+#percentage5 svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #F3F3F3;
+}
+#percentage5 svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 90) / 100);
+    stroke: #f39c12;
+}
+.my_project_button{
+    width: 180px;
+    border-radius: 80px;
+    background-color: #f39c12;
+    padding: 8px 28px;
+    font-weight: 600;
+    margin-left: 100%;
+    margin-top: 20%;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+}
+.my_project_button:hover {
+    background: linear-gradient(to right, #f39c12, white);
+    color: black;
+}
+.java_script_lab_works{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 15%;
+    padding-bottom: 5%;
+}
+.java_script_lab_works_text{
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 3%;
+}
+.java_script_image{
+    width: 500px;
+    border-radius: 30px;
+    margin-left: 17%;
+}
+.web_project{
+    width: 1200px;
+    display: flex;
+    margin-left: 20%;
+    padding-bottom: 5%;
+}
+.web_project_image{
+    width: 500px;
+    height: 150px;
+    border-radius: 30px;
+}
+.web_project_text{
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+.mysql_labworks{
+    width: 100px;
+    display: flex;
+    padding-bottom: 5%;
+}
+.mysql_labworks_image{
+    width: 500px;
+    height: 150px;
+    border-radius: 30px;
+    margin-left: 210%;
+}
+.mysql_labworks_text{
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 2.5%;
+}
+.java_labworks{
+    width: 100px;
+    display: flex;
+    margin-left: 20%;
+    padding-bottom: 5%;
+}
+.java_labworks_image{
+    width: 500px;
+    height: 150px;
+    border-radius: 30px;
+}
+.java_labworks_text{
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 30%;
+}
+.ruby_labworks{
+    width: 100px;
+    display: flex;
+    margin-left: 20%;
+    padding-bottom: 5%;
+}
+.ruby_labworks_text{
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    margin-top: 3%;
+}
+.ruby_labworks_image{
+    width: 500px;
+    height: 150px;
+    border-radius: 30px;
+    margin-left: 140%;
+}
+.todo_app_work{
+    width: 100px;
+    display: flex;
+    margin-left: 20%;
+    padding-bottom: 5%;
+}
+.todo_app_work_image{
+    width: 500px;
+    height: 150px;
+    border-radius: 30px;
+}
+.todo_app_work_text{
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 30%;
+}
+/* .frontend_text {
+  font-size: 30px;
+  font-family: "Varela Round", sans-serif;
+  width: 800px;
+  position: relative;
+  top: 370px;
+  left: 13%;
+}
+.world_tour_image {
+  width: 500px;
+  height: 150px;
+  border-radius: 30px;
+  position: absolute;
+  top: 220%;
+  left: 110%;
+  cursor: pointer;
+}
+.todo_app_image {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 350%;
+    left: 13%;
+}
+.todo_app_text{
+    font-size: 30px;
+    font-family: "Varela Round", sans-serif;
+    width: 900px;
+    position: absolute;
+    top: 400%;
+    left: 45%;
+}
+ */
